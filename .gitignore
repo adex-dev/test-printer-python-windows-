@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual Environment
+venv/
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# Flask specific
+instance/
+.webassets-cache
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+*.cover
+
+# Migrations
+migrations/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Docker files
+docker-compose.override.yml
+Dockerfile
+*.tar
+
+# Other
+*.bak
+*.tmp
+*.tmp.*
